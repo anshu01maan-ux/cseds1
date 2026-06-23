@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>New Grid Practice</title>
+ <style>
+ body{
+ font-family:'Times New Roman', Times, serif;
+ margin: 20px;
+ background:#1292a9;
+ }
+ h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+ .container{
+ display: flex; 
+ flex-direction: row;
+ justify-content: center;
+ align-items: center; 
+ gap: 20px;
+ flex-wrap: wrap;
+ }
+ .card{
+ background: #77e694;
+ border-radius: 10px;
+ box-shadow: 0 4px 6px rgba(225, 166, 213, 0.273);
+ width: 220px;
+ text-align: center;
+ padding: 20px;
+ }
+ .avatar{
+ width: 70px; height: 70px;
+ background: #e5a0f1; 
+ color: #fff;
+ border-radius: 50%;
+ display: flex; 
+ justify-content: center; 
+ align-items: center;
+ font-size: 30px; margin: 0 auto 20px;
+ }
+ .name{ 
+    font-weight: bold; font-size: 20px; 
+}
+ .detail{ 
+    font-size: 25px; color: #555; margin: 2px 0; 
+}
+ </style>
+</head>
+<body>
+ <h1>Employes Profile</h1>
+ <div class="container">
+ <div class="card">
+ <div class="avatar">DM</div>
+ <div class="name">Divyanshu Maurya</div>
+ <div class="detail">CSE DS 01</div>
+ <div class="detail">Manager</div>
+ <div class="detail">Front End Developer</div>
+ </div>
+ <div class="card">
+ <div class="avatar">AG</div>
+ <div class="name">Aman Gurnani</div>
+ <div class="detail">CSE DS 01</div>
+ <div class="detail">HR</div>
+ <div class="detail">Pitcher</div>
+ </div>
+ <div class="card">
+ <div class="avatar">GK</div>
+ <div class="name">Gaurav Kumar</div>
+ <div class="detail">CSE DS 01</div>
+ <div class="detail">Back End Developer </div>
+ <div class="detail">All Rounder</div>
+ </div>
+ <div class="card">
+ <div class="avatar">AS</div>
+ <div class="name">Anahumaan Saxena</div>
+ <div class="detail">CSE DS 01</div>
+ <div class="detail">Joint Manager</div>
+ <div class="detail">Developer</div>
+ </div>
+ <div class="card">
+ <div class="avatar">AS</div>
+ <div class="name">Abhishek Sharma</div>
+ <div class="detail">CSE DS 01</div>
+ <div class="detail">Supplier</div>
+ <div class="detail">Search Clients</div>
+ </div>
+ <div class="card">
+ <div class="avatar">AK</div>
+ <div class="name">Ayush Karn</div>
+ <div class="detail">CSE DS 01</div>
+ <div class="detail">Materials Checker</div>
+ <div class="detail">Products Dealer</div>
+ </div>
+ </div>
+</body>
+</html>

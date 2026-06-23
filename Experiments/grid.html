@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Introduction</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        background-color: black;
+        color: #b7c3f1;
+    }
+    body {
+        font-family:'Times New Roman', Times, serif;
+        height:100vh;
+        width:100vh;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: auto;
+        gap: 10px;
+        padding: 10px;
+        background-color:rgb(215, 244, 250);
+    }
+    .item {
+        background-color: #c5f1b7;
+        color: white;
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+        border:2px solid black;
+    }
+    .item1 {
+        grid-column: 1/7;
+        background-color: #e2d599;
+    }
+    .item2 {
+        grid-column: 1/2;
+        grid-row: 2/4;
+        background-color: #f5a6ee;
+    }
+
+    </style>
+<body>
+    <h1><i><b> My First Grid</b></i></h1>
+    <div class ="container">
+        <div class="item item1">HEADER</div>
+        <div class="item item2">Side Menu</div>
+        <div class="item item3">Content</div>
+        <div class="item item4">Footer</div>
+        <div class="item item5">Info</div>
+        <div class="item item6">About</div>
+    </div>    
+</body>
+</html>
